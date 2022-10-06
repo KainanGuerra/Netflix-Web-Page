@@ -1,0 +1,175 @@
+@keyframes sumirtitulo {
+    0%{
+        top: 11%;
+        scale: 1;
+        opacity: 1;
+        transform: translate(0%,0%);
+        left:11%;
+    }
+    100%{
+        opacity: 0;
+        left:11%;
+        top: 0%;
+    }
+}
+
+@keyframes sumirpag {
+    0%{
+        top: 18%;
+        scale: 1;
+        opacity: 1;
+        transform: translate(0%,0%);
+        left:11%;
+    }
+    100%{
+        opacity: 0;
+        left:11%;
+        top: 0%;
+    }
+}
+
+
+
+
+@keyframes titulo{
+            0%{
+            }
+            100%{
+                align-items: flex-start;
+                scale: 1;
+                opacity: 1;
+                transform: translate(0%,0%);
+                left:11%;
+            }
+        }
+@keyframes tituloback{
+                100%{
+                left: 50%;
+                transform: translate(-50%,0%);
+            }
+            0%{
+                left:11%;
+                align-items: flex-start;
+                transform: translate(0%,0%);
+            }
+        }
+
+@keyframes netflix {
+    0%{
+    }
+    100%{
+        left: 30%;
+
+    }
+}
+
+@keyframes netflix-back {
+    0%{
+        left: 30%;
+    }
+    100%{
+        left: 50%;
+    }
+    
+}
+
+@keyframes vanish {
+    0%{
+        top: 48%;
+        left: 48%;
+        transform: translate(-20%, -20%);
+        opacity: 1;
+    }
+    100%{
+        scale: 10;
+        opacity: 0;
+        transform: translate(0%, 0%);
+    }
+}
+
+
+@keyframes fade-in {
+    0%{
+        scale: 0.1;
+        opacity: 0;
+        top: 20%;
+        left: 35%;
+        transform: translate(-50%,-50%);
+    }
+    20%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        scale: 1.1;
+        opacity: 1;
+        top: 55%;
+        left: 60%;
+        transform: translate(0,-50%);
+    }
+}
+
+@keyframes fade-out {
+    0%{
+        scale: 1.1;
+        opacity: 1;
+        top: 55%;
+        left: 60%;
+        transform: translate(0,-50%);
+    }
+
+    100%{
+        scale: 0;
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+
+
+
+
+
+@keyframes txt {
+    0%{
+        opacity: 0;
+        top: 80%;
+        transform: translate(30%, 0%);
+    }
+    20%{
+
+        opacity: 0.1;
+    }
+    60%{
+
+        opacity: 0.4;
+    }
+    100%{  
+        opacity: 1;
+        transform: translate(30%, 0%);
+        top: 75%;
+    }
+}
+
+@keyframes txtback {
+    100%{
+        opacity: 0;
+        top: 90%;
+        transform: translate(30%, 0%);
+    }
+   60%{
+
+        opacity: 0.1;
+    }
+    20%{
+
+        opacity: 0.4;
+    }
+    0%{  
+        opacity: 1;
+        transform: translate(30%, 0%);
+        top: 75%;
+    }
+}

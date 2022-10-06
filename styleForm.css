@@ -1,0 +1,171 @@
+:root{
+    --soft-white: #ffffff;
+    --soft-dark: #313234;
+    --blue-link: rgb(255, 255, 255);
+    --grad: linear-gradient(90deg, #b20710 0%, rgb(58, 0, 0) 50%, #e50914 100%);
+    font-family: sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.gradient-wrapper{
+    position: absolute;
+    width: 404px;
+    height: 562px;
+    background: var(--grad);
+    border-radius: 8px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 10px black;
+}
+
+
+.form-wrapper{
+
+    width: 400px;
+    height: 558px;
+    background: linear-gradient(45deg, black 0%, rgb(39, 39, 39) 50%, black 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 48px;
+    
+}
+.form__title{
+    margin-bottom: 32px;
+}
+.form__input-gradient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    width: 100%;
+    height: 42px;
+    background: rgb(75, 75, 75);
+    border-radius: 5px;
+}
+
+.form__input--user{
+    margin-bottom: 16px;
+}
+.pau:hover{
+    cursor: pointer;
+}
+.form__input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.form__check-holder{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 16px 0;
+}
+a{
+    color: var(--blue-link);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(194, 0, 0);
+}
+.form__button--sign-in{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: var(--grad);
+    color: var(--soft-white);
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-bottom: 16px;   
+    cursor: pointer; 
+    transition: 0.3s;
+}
+.form__button--sign-in:hover{
+    transform: scale(1.03);
+}
+.form__l-gradient{
+    width: 100%;
+    height: 2px;
+    background: var(--grad);
+    margin: 24px 0;
+    position: absolute;
+    left: 0;
+}
+
+.form__options{
+    width: 100%;
+    display: block;
+    margin-top: 49px;
+}
+.form__options--text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__option--text{
+    display: flex;
+    justify-content: space-between;
+
+}
+.form__option--google{
+    border: 1px solid rgb(228, 228, 228);
+    width: 144px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.form__option--google:hover{
+    scale: 1.03;
+    cursor: pointer;
+    background-color: rgb(68, 68, 68);
+}
+.form__option--github{
+    width: 144px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.form__option--github:hover{
+    cursor: pointer;
+    scale: 1.03;
+    background-color: rgb(68, 68, 68);
+}
+.icon_git{
+    border-radius: 50%;
+}
+img{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.form__options-content{
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
