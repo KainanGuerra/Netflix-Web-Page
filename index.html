@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleLogin.css">
+    <link rel="stylesheet" href="./styleForm.css">
+    <link rel="stylesheet" href="./keyframes.css">
+    <style>
+
+        body{
+            background:  
+            linear-gradient(35deg, rgb(0, 0, 0) 2%, rgb(43, 43, 43, 1)50%, rgb(0, 0, 0) 100%) 
+            no-repeat border-box;
+        }
+        .nometitle{
+            color: white;
+            position: absolute;
+            top: 11%;
+            left: 50%;
+            transform: translate(-50%,0%);
+            transition: 1s;
+        }
+        h1{
+            font-size: 48px;
+        }
+        .pagnome{
+            font-size: 42px;
+            color: white;
+            position: absolute;
+            top: 18%;
+            left: 50%;
+            transform: translate(-50%,0%);
+            transition: 1s;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="nometitle" id="nometitle"> 
+        <h1>KAINAN GUERRA SILVA</h1>
+        
+    </div>
+        <p class="pagnome" id="pagtitle"> FRONT-END DEVELOPER</p>
+
+
+    <!--Logo NETFLIX -->
+    <div id="divnet"><div class="n" id="barrasnet"><span class="net" id="spannet"></span></div></div>
+    
+    
+    <!--Texto Sobre a Netflix-->
+    <div class="div_text--net">
+        <p id="text_net">
+            A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries,
+            filmes e documentários premiados em milhares de aparelhos conectados à internet.
+         
+        </p>
+    </div>
+    
+
+    <div class="gradient-wrapper" id="form">
+        <div class="form-wrapper">
+            <h1 class="form__title">Login</h1>
+
+            <div class="form__input--user">
+                 <label for="user"> E-mail or username:</label>
+                 <div class="form__input-gradient">
+                      <input class="form__input" required="required" type="text" id="user">
+                 </div>
+           
+            </div>
+
+           <div class="form__input--pw">
+                <label for="pw">Password:</label>
+                <div class="form__input-gradient">
+                    <input  class="form__input" required="required" type="password" id="pw">
+                </div>
+            
+           </div>
+           
+            <div class="form__check-holder">
+                <div class="form__check-content">
+                     <input class="pau" type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <input type="submit" class="form__button--sign-in" value="Sign in" id="signin">
+            
+            <span class="form__option--text">Don't have an account? <a href="#">Register Now</a></span>
+            <div class="form__l-gradient"></div>
+            <div class="form__options">
+                <span class="form__options--text">Or sign in with: </span>
+                
+                <div class="form__options-content">
+                        <div class="form__option--google">
+                            <img src="google.png" alt="Google">
+                            <span class="google">Google</span>
+                        </div>
+                     <div class="form__option--github">
+                        <img src="gitwhite.png" alt="Github" class="icon_git">
+                        <span class="github">GitHub</span>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
